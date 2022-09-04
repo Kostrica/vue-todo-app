@@ -1,8 +1,11 @@
 {
+  "homepage": "https://Kostrica.github.io/vue-todo-app",
   "name": "vue-educational-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
